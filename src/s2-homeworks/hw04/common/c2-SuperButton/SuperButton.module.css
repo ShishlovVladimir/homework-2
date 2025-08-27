@@ -1,16 +1,32 @@
 .button {
+    border-radius: 3px;
+    padding: 5px 24px;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 1.42857;
+    color: #fff;
 }
 
 .disabled {
+    background-color:  #004d99;;
+    opacity: 0.5;
+    color: #002e5c;
 }
 
 .secondary {
+    border: 1px solid #06c;
+   background-color: rgba(0, 0, 0, 0);
+    color: #06c;
 }
 
 .default {
+    background-color:#06c;;
 }
 
 .red {
+
+    background-color: #c44a4a;
+
 }
 
 .default:hover {

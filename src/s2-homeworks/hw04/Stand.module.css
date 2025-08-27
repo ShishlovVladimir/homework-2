@@ -21,3 +21,8 @@
     flex-direction: column;
     gap: 36px;
 }
+
+.testSpanError{
+    color: #e1e15b;
+    height: 55px;
+}

@@ -1,6 +1,11 @@
 .message {
-
-
+display: flex;
+    flex-direction: column;
+    background-color: rgba(4, 128, 253, 0.3);
+   align-content: flex-start;
+    border-radius: 5px 5px 5px 0;
+    padding: 10px;
+    width: 50%;
 }
 
 .imageAndText {
@@ -8,11 +13,17 @@ color: #0059b3;
 }
 
 .imageAndText img {
-
+    height: 50px;
+    width: 50px;
 }
 
 .text {
+padding: 10px;
 
+
+
+    max-width: 500px;
+    word-wrap: break-word;
 }
 
 .text:after {
@@ -20,11 +31,15 @@ color: #0059b3;
 }
 
 .name {
-
+    font-weight: 600;
+    font-size: 18px;
+    color: #fff;
 }
 
 .messageText {
-
+    font-weight: 400;
+    font-size: 16px;
+    color: #fff;
 }
 
 .time {
